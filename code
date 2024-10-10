@@ -1,0 +1,12 @@
+import math
+t = int(input())
+
+for i in range(t):
+  l = str(input())
+  first= int(l[0])+int(l[1])+int(l[2])
+  last= int(l[3])+int(l[4])+int(l[5])
+
+  if(first==last):
+    print("YES")
+  else:
+    print("NO")
